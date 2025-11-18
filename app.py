@@ -8,7 +8,6 @@ app = Sanic("hello_api")
 async def index(request):
     return text("Hello from Sanic+Docker+EC2, Checking enhancements dynamically, refresh check!!!")
 
-
 @app.get("/health")
 async def health(request):
     return json({"status": "ok"})
