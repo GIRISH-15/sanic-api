@@ -6,7 +6,7 @@ app = Sanic("hello_api")
 
 @app.get("/")
 async def index(request):
-    return text("Hello from Sanic+Docker+EC2, Checking enhancements dynamically,time-delay...!!!")
+    return text("Hello from Sanic+Docker+EC2, Checking enhancements dynamically,!!!")
 
 
 @app.get("/health")
